@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Student student = new Student();
         MenuHandle menuHandle = new MenuHandle();
         ArrayList<Classes> classes = new ArrayList<>();
         ClassHandle classHandle = new ClassHandle();
@@ -25,7 +24,7 @@ public class Main {
             classes.add(classes1);
         }
         System.out.println(techmasterCenter);
-        menuHandle.opionOfMenu(scanner, classes,student.getId());
+        menuHandle.opionOfMenu(scanner, classes);
         System.out.println(techmasterCenter);
     }
 }
