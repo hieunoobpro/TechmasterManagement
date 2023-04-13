@@ -1,6 +1,6 @@
-package Handle;
+package handle;
 
-import Entity.Classes;
+import entity.Classes;
 
 import java.util.ArrayList;
 import java.util.Scanner;

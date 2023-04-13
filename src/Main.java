@@ -1,14 +1,13 @@
 
-import Entity.Classes;
-import Entity.HeadQuater;
-import Entity.Student;
-import Entity.TechmasterCenter;
-import Handle.ClassHandle;
-import Handle.HeadquaterHandle;
-import Handle.MenuHandle;
+import entity.Classes;
+import entity.HeadQuater;
+import entity.TechmasterCenter;
+import handle.ClassHandle;
+import handle.HeadquaterHandle;
+import handle.MenuHandle;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

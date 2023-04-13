@@ -1,4 +1,4 @@
-package Entity;
+package entity;
 
 public class Classes extends Student {
     private String subject;

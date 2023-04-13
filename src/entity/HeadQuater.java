@@ -1,13 +1,13 @@
-package Entity;
+package entity;
 
 public class HeadQuater {
     private String manager;
-    private String lecture;
+    private String lecturers;
     private String className;
 
-    public HeadQuater(String manager, String lecture, String className) {
+    public HeadQuater(String manager, String lecturers, String className) {
         this.manager = manager;
-        this.lecture = lecture;
+        this.lecturers = lecturers;
         this.className = className;
     }
 
@@ -15,7 +15,7 @@ public class HeadQuater {
     public String toString() {
         return  "TechmasterCenter: " +
                 "\nQuản lý lớp học: " + manager +
-                "\nGiảng viên: " + lecture +
+                "\nGiảng viên: " + lecturers +
                 "\nLớp học: " + className ;
     }
 }

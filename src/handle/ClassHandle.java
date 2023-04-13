@@ -1,5 +1,5 @@
-package Handle;
-import Entity.Classes;
+package handle;
+import entity.Classes;
 
 import java.util.Scanner;
 

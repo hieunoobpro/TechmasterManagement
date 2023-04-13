@@ -1,6 +1,6 @@
-package Handle;
+package handle;
 
-import Entity.HeadQuater;
+import entity.HeadQuater;
 
 import java.util.Scanner;
 
@@ -9,9 +9,9 @@ public class HeadquaterHandle {
         System.out.println("Nhap ten lop hoc: ");
         String classname = scanner.nextLine();
         System.out.println("Nhap ten giang vien: ");
-        String lecture = scanner.nextLine();
+        String lecturers = scanner.nextLine();
         System.out.println("Nhap ten quan ly: ");
         String manager = scanner.nextLine();
-        return new HeadQuater(classname, lecture, manager);
+        return new HeadQuater(classname, lecturers, manager);
     }
 }
